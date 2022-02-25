@@ -1,0 +1,6 @@
+framework module Pods_NotRottenTomatos {
+  umbrella header "Pods-NotRottenTomatos-umbrella.h"
+
+  export *
+  module * { export * }
+}

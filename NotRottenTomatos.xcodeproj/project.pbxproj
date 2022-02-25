@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00FC2D7EE50297F65539DEDE /* Pods_NotRottenTomatosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B4F88DFAC3BC0E1F3551C2 /* Pods_NotRottenTomatosTests.framework */; };
+		8E93C4FC27C850C000B74911 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C4FB27C850C000B74911 /* AppDelegate.m */; };
+		8E93C4FF27C850C000B74911 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C4FE27C850C000B74911 /* SceneDelegate.m */; };
+		8E93C50227C850C000B74911 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C50127C850C000B74911 /* ViewController.m */; };
+		8E93C50527C850C000B74911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E93C50327C850C000B74911 /* Main.storyboard */; };
+		8E93C50727C850C200B74911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E93C50627C850C200B74911 /* Assets.xcassets */; };
+		8E93C50A27C850C200B74911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E93C50827C850C200B74911 /* LaunchScreen.storyboard */; };
+		8E93C50D27C850C200B74911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C50C27C850C200B74911 /* main.m */; };
+		8E93C51727C850C200B74911 /* NotRottenTomatosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C51627C850C200B74911 /* NotRottenTomatosTests.m */; };
+		8E93C52127C850C200B74911 /* NotRottenTomatosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C52027C850C200B74911 /* NotRottenTomatosUITests.m */; };
+		8E93C52327C850C200B74911 /* NotRottenTomatosUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C52227C850C200B74911 /* NotRottenTomatosUITestsLaunchTests.m */; };
+		8E93C53127C859DB00B74911 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C53027C859DB00B74911 /* MoviesViewController.swift */; };
+		8E93C53327C863C700B74911 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C53227C863C700B74911 /* MovieCell.swift */; };
+		8E93C53627C8687900B74911 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 8E93C53527C8687900B74911 /* AlamofireImage */; };
+		C0320F3F4D6B43B12D69A5CC /* Pods_NotRottenTomatos_NotRottenTomatosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D662F0B8FF47FEDA953368 /* Pods_NotRottenTomatos_NotRottenTomatosUITests.framework */; };
+		F9547C0B4A17EDDA41EE3804 /* Pods_NotRottenTomatos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D995EAE5A6D3DB65021CC4 /* Pods_NotRottenTomatos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E93C51327C850C200B74911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E93C4EF27C850C000B74911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E93C4F627C850C000B74911;
+			remoteInfo = NotRottenTomatos;
+		};
+		8E93C51D27C850C200B74911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E93C4EF27C850C000B74911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E93C4F627C850C000B74911;
+			remoteInfo = NotRottenTomatos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A3D5D6020B116A3AD9D8393 /* Pods-NotRottenTomatos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotRottenTomatos.release.xcconfig"; path = "Target Support Files/Pods-NotRottenTomatos/Pods-NotRottenTomatos.release.xcconfig"; sourceTree = "<group>"; };
+		3735FB726758A216978A4252 /* Pods-NotRottenTomatos-NotRottenTomatosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotRottenTomatos-NotRottenTomatosUITests.release.xcconfig"; path = "Target Support Files/Pods-NotRottenTomatos-NotRottenTomatosUITests/Pods-NotRottenTomatos-NotRottenTomatosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		39D995EAE5A6D3DB65021CC4 /* Pods_NotRottenTomatos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotRottenTomatos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B4F88DFAC3BC0E1F3551C2 /* Pods_NotRottenTomatosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotRottenTomatosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		718C594571922EE22029A23E /* Pods-NotRottenTomatos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotRottenTomatos.debug.xcconfig"; path = "Target Support Files/Pods-NotRottenTomatos/Pods-NotRottenTomatos.debug.xcconfig"; sourceTree = "<group>"; };
+		8E93C4F727C850C000B74911 /* NotRottenTomatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotRottenTomatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E93C4FA27C850C000B74911 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E93C4FB27C850C000B74911 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E93C4FD27C850C000B74911 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8E93C4FE27C850C000B74911 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8E93C50027C850C000B74911 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8E93C50127C850C000B74911 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E93C50427C850C000B74911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E93C50627C850C200B74911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E93C50927C850C200B74911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E93C50B27C850C200B74911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E93C50C27C850C200B74911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E93C51227C850C200B74911 /* NotRottenTomatosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotRottenTomatosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E93C51627C850C200B74911 /* NotRottenTomatosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotRottenTomatosTests.m; sourceTree = "<group>"; };
+		8E93C51C27C850C200B74911 /* NotRottenTomatosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotRottenTomatosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E93C52027C850C200B74911 /* NotRottenTomatosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotRottenTomatosUITests.m; sourceTree = "<group>"; };
+		8E93C52227C850C200B74911 /* NotRottenTomatosUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotRottenTomatosUITestsLaunchTests.m; sourceTree = "<group>"; };
+		8E93C52F27C859DA00B74911 /* NotRottenTomatos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotRottenTomatos-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E93C53027C859DB00B74911 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		8E93C53227C863C700B74911 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		9891B3C9CF5A4235C3F453C0 /* Pods-NotRottenTomatosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotRottenTomatosTests.debug.xcconfig"; path = "Target Support Files/Pods-NotRottenTomatosTests/Pods-NotRottenTomatosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0D662F0B8FF47FEDA953368 /* Pods_NotRottenTomatos_NotRottenTomatosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotRottenTomatos_NotRottenTomatosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D1D9339EB5E863FFA2B81C /* Pods-NotRottenTomatosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotRottenTomatosTests.release.xcconfig"; path = "Target Support Files/Pods-NotRottenTomatosTests/Pods-NotRottenTomatosTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0FF4BAA7323A8850E496B80 /* Pods-NotRottenTomatos-NotRottenTomatosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotRottenTomatos-NotRottenTomatosUITests.debug.xcconfig"; path = "Target Support Files/Pods-NotRottenTomatos-NotRottenTomatosUITests/Pods-NotRottenTomatos-NotRottenTomatosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E93C4F427C850C000B74911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E93C53627C8687900B74911 /* AlamofireImage in Frameworks */,
+				F9547C0B4A17EDDA41EE3804 /* Pods_NotRottenTomatos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E93C50F27C850C200B74911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FC2D7EE50297F65539DEDE /* Pods_NotRottenTomatosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E93C51927C850C200B74911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0320F3F4D6B43B12D69A5CC /* Pods_NotRottenTomatos_NotRottenTomatosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E93C4EE27C850BF00B74911 = {
+			isa = PBXGroup;
+			children = (
+				8E93C4F927C850C000B74911 /* NotRottenTomatos */,
+				8E93C51527C850C200B74911 /* NotRottenTomatosTests */,
+				8E93C51F27C850C200B74911 /* NotRottenTomatosUITests */,
+				8E93C4F827C850C000B74911 /* Products */,
+				8E93C52F27C859DA00B74911 /* NotRottenTomatos-Bridging-Header.h */,
+				E738C74ABC68F52D4C6626E4 /* Pods */,
+				EECF56D9B6E5EDF85966AB13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E93C4F827C850C000B74911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E93C4F727C850C000B74911 /* NotRottenTomatos.app */,
+				8E93C51227C850C200B74911 /* NotRottenTomatosTests.xctest */,
+				8E93C51C27C850C200B74911 /* NotRottenTomatosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E93C4F927C850C000B74911 /* NotRottenTomatos */ = {
+			isa = PBXGroup;
+			children = (
+				8E93C4FA27C850C000B74911 /* AppDelegate.h */,
+				8E93C4FB27C850C000B74911 /* AppDelegate.m */,
+				8E93C4FD27C850C000B74911 /* SceneDelegate.h */,
+				8E93C4FE27C850C000B74911 /* SceneDelegate.m */,
+				8E93C50027C850C000B74911 /* ViewController.h */,
+				8E93C50127C850C000B74911 /* ViewController.m */,
+				8E93C50327C850C000B74911 /* Main.storyboard */,
+				8E93C50627C850C200B74911 /* Assets.xcassets */,
+				8E93C50827C850C200B74911 /* LaunchScreen.storyboard */,
+				8E93C50B27C850C200B74911 /* Info.plist */,
+				8E93C50C27C850C200B74911 /* main.m */,
+				8E93C53027C859DB00B74911 /* MoviesViewController.swift */,
+				8E93C53227C863C700B74911 /* MovieCell.swift */,
+			);
+			path = NotRottenTomatos;
+			sourceTree = "<group>";
+		};
+		8E93C51527C850C200B74911 /* NotRottenTomatosTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E93C51627C850C200B74911 /* NotRottenTomatosTests.m */,
+			);
+			path = NotRottenTomatosTests;
+			sourceTree = "<group>";
+		};
+		8E93C51F27C850C200B74911 /* NotRottenTomatosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E93C52027C850C200B74911 /* NotRottenTomatosUITests.m */,
+				8E93C52227C850C200B74911 /* NotRottenTomatosUITestsLaunchTests.m */,
+			);
+			path = NotRottenTomatosUITests;
+			sourceTree = "<group>";
+		};
+		E738C74ABC68F52D4C6626E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				718C594571922EE22029A23E /* Pods-NotRottenTomatos.debug.xcconfig */,
+				2A3D5D6020B116A3AD9D8393 /* Pods-NotRottenTomatos.release.xcconfig */,
+				F0FF4BAA7323A8850E496B80 /* Pods-NotRottenTomatos-NotRottenTomatosUITests.debug.xcconfig */,
+				3735FB726758A216978A4252 /* Pods-NotRottenTomatos-NotRottenTomatosUITests.release.xcconfig */,
+				9891B3C9CF5A4235C3F453C0 /* Pods-NotRottenTomatosTests.debug.xcconfig */,
+				E9D1D9339EB5E863FFA2B81C /* Pods-NotRottenTomatosTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EECF56D9B6E5EDF85966AB13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39D995EAE5A6D3DB65021CC4 /* Pods_NotRottenTomatos.framework */,
+				C0D662F0B8FF47FEDA953368 /* Pods_NotRottenTomatos_NotRottenTomatosUITests.framework */,
+				62B4F88DFAC3BC0E1F3551C2 /* Pods_NotRottenTomatosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E93C4F627C850C000B74911 /* NotRottenTomatos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E93C52627C850C200B74911 /* Build configuration list for PBXNativeTarget "NotRottenTomatos" */;
+			buildPhases = (
+				CCE07165516441B55EA9CB22 /* [CP] Check Pods Manifest.lock */,
+				8E93C4F327C850C000B74911 /* Sources */,
+				8E93C4F427C850C000B74911 /* Frameworks */,
+				8E93C4F527C850C000B74911 /* Resources */,
+				DC533D785B3CB63D6ED98244 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotRottenTomatos;
+			packageProductDependencies = (
+				8E93C53527C8687900B74911 /* AlamofireImage */,
+			);
+			productName = NotRottenTomatos;
+			productReference = 8E93C4F727C850C000B74911 /* NotRottenTomatos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E93C51127C850C200B74911 /* NotRottenTomatosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E93C52927C850C200B74911 /* Build configuration list for PBXNativeTarget "NotRottenTomatosTests" */;
+			buildPhases = (
+				65CDB8D0850DBD16AC396EB0 /* [CP] Check Pods Manifest.lock */,
+				8E93C50E27C850C200B74911 /* Sources */,
+				8E93C50F27C850C200B74911 /* Frameworks */,
+				8E93C51027C850C200B74911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E93C51427C850C200B74911 /* PBXTargetDependency */,
+			);
+			name = NotRottenTomatosTests;
+			productName = NotRottenTomatosTests;
+			productReference = 8E93C51227C850C200B74911 /* NotRottenTomatosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E93C51B27C850C200B74911 /* NotRottenTomatosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E93C52C27C850C200B74911 /* Build configuration list for PBXNativeTarget "NotRottenTomatosUITests" */;
+			buildPhases = (
+				61BAAA8A299815ED3D05393C /* [CP] Check Pods Manifest.lock */,
+				8E93C51827C850C200B74911 /* Sources */,
+				8E93C51927C850C200B74911 /* Frameworks */,
+				8E93C51A27C850C200B74911 /* Resources */,
+				7A03A3A6F26A5E98C1353736 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E93C51E27C850C200B74911 /* PBXTargetDependency */,
+			);
+			name = NotRottenTomatosUITests;
+			productName = NotRottenTomatosUITests;
+			productReference = 8E93C51C27C850C200B74911 /* NotRottenTomatosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E93C4EF27C850C000B74911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8E93C4F627C850C000B74911 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					8E93C51127C850C200B74911 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8E93C4F627C850C000B74911;
+					};
+					8E93C51B27C850C200B74911 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8E93C4F627C850C000B74911;
+					};
+				};
+			};
+			buildConfigurationList = 8E93C4F227C850C000B74911 /* Build configuration list for PBXProject "NotRottenTomatos" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E93C4EE27C850BF00B74911;
+			packageReferences = (
+				8E93C53427C8687800B74911 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
+			productRefGroup = 8E93C4F827C850C000B74911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E93C4F627C850C000B74911 /* NotRottenTomatos */,
+				8E93C51127C850C200B74911 /* NotRottenTomatosTests */,
+				8E93C51B27C850C200B74911 /* NotRottenTomatosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E93C4F527C850C000B74911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E93C50A27C850C200B74911 /* LaunchScreen.storyboard in Resources */,
+				8E93C50727C850C200B74911 /* Assets.xcassets in Resources */,
+				8E93C50527C850C000B74911 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E93C51027C850C200B74911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E93C51A27C850C200B74911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61BAAA8A299815ED3D05393C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotRottenTomatos-NotRottenTomatosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65CDB8D0850DBD16AC396EB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotRottenTomatosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A03A3A6F26A5E98C1353736 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotRottenTomatos-NotRottenTomatosUITests/Pods-NotRottenTomatos-NotRottenTomatosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotRottenTomatos-NotRottenTomatosUITests/Pods-NotRottenTomatos-NotRottenTomatosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NotRottenTomatos-NotRottenTomatosUITests/Pods-NotRottenTomatos-NotRottenTomatosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE07165516441B55EA9CB22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotRottenTomatos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC533D785B3CB63D6ED98244 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotRottenTomatos/Pods-NotRottenTomatos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NotRottenTomatos/Pods-NotRottenTomatos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NotRottenTomatos/Pods-NotRottenTomatos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E93C4F327C850C000B74911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E93C50227C850C000B74911 /* ViewController.m in Sources */,
+				8E93C53127C859DB00B74911 /* MoviesViewController.swift in Sources */,
+				8E93C53327C863C700B74911 /* MovieCell.swift in Sources */,
+				8E93C4FC27C850C000B74911 /* AppDelegate.m in Sources */,
+				8E93C50D27C850C200B74911 /* main.m in Sources */,
+				8E93C4FF27C850C000B74911 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E93C50E27C850C200B74911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E93C51727C850C200B74911 /* NotRottenTomatosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E93C51827C850C200B74911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E93C52327C850C200B74911 /* NotRottenTomatosUITestsLaunchTests.m in Sources */,
+				8E93C52127C850C200B74911 /* NotRottenTomatosUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E93C51427C850C200B74911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E93C4F627C850C000B74911 /* NotRottenTomatos */;
+			targetProxy = 8E93C51327C850C200B74911 /* PBXContainerItemProxy */;
+		};
+		8E93C51E27C850C200B74911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E93C4F627C850C000B74911 /* NotRottenTomatos */;
+			targetProxy = 8E93C51D27C850C200B74911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E93C50327C850C000B74911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E93C50427C850C000B74911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E93C50827C850C200B74911 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E93C50927C850C200B74911 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E93C52427C850C200B74911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E93C52527C850C200B74911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E93C52727C850C200B74911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 718C594571922EE22029A23E /* Pods-NotRottenTomatos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A68747997M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotRottenTomatos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sain.yelaman-columbia.edu.NotRottenTomatos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotRottenTomatos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E93C52827C850C200B74911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3D5D6020B116A3AD9D8393 /* Pods-NotRottenTomatos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A68747997M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotRottenTomatos/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sain.yelaman-columbia.edu.NotRottenTomatos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotRottenTomatos-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8E93C52A27C850C200B74911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9891B3C9CF5A4235C3F453C0 /* Pods-NotRottenTomatosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A68747997M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sain.yelaman-columbia.edu.NotRottenTomatosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotRottenTomatos.app/NotRottenTomatos";
+			};
+			name = Debug;
+		};
+		8E93C52B27C850C200B74911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D1D9339EB5E863FFA2B81C /* Pods-NotRottenTomatosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A68747997M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sain.yelaman-columbia.edu.NotRottenTomatosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotRottenTomatos.app/NotRottenTomatos";
+			};
+			name = Release;
+		};
+		8E93C52D27C850C200B74911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FF4BAA7323A8850E496B80 /* Pods-NotRottenTomatos-NotRottenTomatosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A68747997M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sain.yelaman-columbia.edu.NotRottenTomatosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotRottenTomatos;
+			};
+			name = Debug;
+		};
+		8E93C52E27C850C200B74911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3735FB726758A216978A4252 /* Pods-NotRottenTomatos-NotRottenTomatosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A68747997M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sain.yelaman-columbia.edu.NotRottenTomatosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NotRottenTomatos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E93C4F227C850C000B74911 /* Build configuration list for PBXProject "NotRottenTomatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E93C52427C850C200B74911 /* Debug */,
+				8E93C52527C850C200B74911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E93C52627C850C200B74911 /* Build configuration list for PBXNativeTarget "NotRottenTomatos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E93C52727C850C200B74911 /* Debug */,
+				8E93C52827C850C200B74911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E93C52927C850C200B74911 /* Build configuration list for PBXNativeTarget "NotRottenTomatosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E93C52A27C850C200B74911 /* Debug */,
+				8E93C52B27C850C200B74911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E93C52C27C850C200B74911 /* Build configuration list for PBXNativeTarget "NotRottenTomatosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E93C52D27C850C200B74911 /* Debug */,
+				8E93C52E27C850C200B74911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E93C53427C8687800B74911 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E93C53527C8687900B74911 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E93C53427C8687800B74911 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8E93C4EF27C850C000B74911 /* Project object */;
+}
