@@ -32,10 +32,11 @@ Describe any challenges encountered while building the app.
 - [x] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
+- [x] (2pt) User can view the app on various device sizes and orientations.
 - [x] (1pt) Run your app on a real device.
 
 <img src="http://g.recordit.co/55QkHNogJZ.gif" width=250><br>
+<img src="http://g.recordit.co/Ld3H18nqdl.gif" width=250><br>
 
 ### Notes
 The biggest challenge was that for some reason the terminal command lines below were not working. Someone did mention the same issue on slack. Somehow, with magic, I got it fixed. But if someone asked me how - I wouldn't have the answer.
