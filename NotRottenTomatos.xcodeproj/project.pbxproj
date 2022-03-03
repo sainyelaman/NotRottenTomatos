@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		00FC2D7EE50297F65539DEDE /* Pods_NotRottenTomatosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B4F88DFAC3BC0E1F3551C2 /* Pods_NotRottenTomatosTests.framework */; };
+		8E64BF9627D14B2C00949CB2 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64BF9527D14B2C00949CB2 /* MovieDetailsViewController.swift */; };
+		8E64BF9827D16A8600949CB2 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64BF9727D16A8600949CB2 /* MovieGridViewController.swift */; };
+		8E64BF9A27D16D8200949CB2 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64BF9927D16D8200949CB2 /* MovieGridCell.swift */; };
+		8E64BF9C27D17B6A00949CB2 /* MovieDetails_2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E64BF9B27D17B6A00949CB2 /* MovieDetails_2ViewController.swift */; };
 		8E93C4FC27C850C000B74911 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C4FB27C850C000B74911 /* AppDelegate.m */; };
 		8E93C4FF27C850C000B74911 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C4FE27C850C000B74911 /* SceneDelegate.m */; };
 		8E93C50227C850C000B74911 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E93C50127C850C000B74911 /* ViewController.m */; };
@@ -48,6 +52,10 @@
 		39D995EAE5A6D3DB65021CC4 /* Pods_NotRottenTomatos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotRottenTomatos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B4F88DFAC3BC0E1F3551C2 /* Pods_NotRottenTomatosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotRottenTomatosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		718C594571922EE22029A23E /* Pods-NotRottenTomatos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotRottenTomatos.debug.xcconfig"; path = "Target Support Files/Pods-NotRottenTomatos/Pods-NotRottenTomatos.debug.xcconfig"; sourceTree = "<group>"; };
+		8E64BF9527D14B2C00949CB2 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		8E64BF9727D16A8600949CB2 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		8E64BF9927D16D8200949CB2 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		8E64BF9B27D17B6A00949CB2 /* MovieDetails_2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails_2ViewController.swift; sourceTree = "<group>"; };
 		8E93C4F727C850C000B74911 /* NotRottenTomatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotRottenTomatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E93C4FA27C850C000B74911 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8E93C4FB27C850C000B74911 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -142,6 +150,10 @@
 				8E93C50C27C850C200B74911 /* main.m */,
 				8E93C53027C859DB00B74911 /* MoviesViewController.swift */,
 				8E93C53227C863C700B74911 /* MovieCell.swift */,
+				8E64BF9527D14B2C00949CB2 /* MovieDetailsViewController.swift */,
+				8E64BF9727D16A8600949CB2 /* MovieGridViewController.swift */,
+				8E64BF9927D16D8200949CB2 /* MovieGridCell.swift */,
+				8E64BF9B27D17B6A00949CB2 /* MovieDetails_2ViewController.swift */,
 			);
 			path = NotRottenTomatos;
 			sourceTree = "<group>";
@@ -173,7 +185,6 @@
 				9891B3C9CF5A4235C3F453C0 /* Pods-NotRottenTomatosTests.debug.xcconfig */,
 				E9D1D9339EB5E863FFA2B81C /* Pods-NotRottenTomatosTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -435,9 +446,13 @@
 				8E93C50227C850C000B74911 /* ViewController.m in Sources */,
 				8E93C53127C859DB00B74911 /* MoviesViewController.swift in Sources */,
 				8E93C53327C863C700B74911 /* MovieCell.swift in Sources */,
+				8E64BF9627D14B2C00949CB2 /* MovieDetailsViewController.swift in Sources */,
 				8E93C4FC27C850C000B74911 /* AppDelegate.m in Sources */,
+				8E64BF9C27D17B6A00949CB2 /* MovieDetails_2ViewController.swift in Sources */,
+				8E64BF9827D16A8600949CB2 /* MovieGridViewController.swift in Sources */,
 				8E93C50D27C850C200B74911 /* main.m in Sources */,
 				8E93C4FF27C850C000B74911 /* SceneDelegate.m in Sources */,
+				8E64BF9A27D16D8200949CB2 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
