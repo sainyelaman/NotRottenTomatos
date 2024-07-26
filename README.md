@@ -2,6 +2,8 @@
 
 NotRottenTomatos is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
+<img src='NotRottenTomatosDemo-1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 ## NotRottenTomatos Part 1
 
 #### REQUIRED 
@@ -12,9 +14,6 @@ NotRottenTomatos is an app that allows users to browse movies from the [The Movi
 #### BONUS
 - [x] User can view the app on various device sizes and orientations.
 - [x] Run your app on a real device.
-
-<img src="http://g.recordit.co/55QkHNogJZ.gif" width=250><br>
-<img src="http://g.recordit.co/Ld3H18nqdl.gif" width=250><br>
 
 
 ## NotRottenTomatos Part 2
