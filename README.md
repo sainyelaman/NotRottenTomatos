@@ -16,11 +16,6 @@ NotRottenTomatos is an app that allows users to browse movies from the [The Movi
 <img src="http://g.recordit.co/55QkHNogJZ.gif" width=250><br>
 <img src="http://g.recordit.co/Ld3H18nqdl.gif" width=250><br>
 
-### Notes
-The biggest challenge was that, for some reason, the terminal command lines below were not working. Someone did mention the same issue on slack. Somehow, with magic, I got it fixed. But if someone asked me how - I wouldn't have the answer.
-
-opt/homebrew/Cellar/cocoapods/{VERSION}/bin/pod init
-opt/homebrew/Cellar/cocoapods/{VERSION}/bin/pod install
 
 ## NotRottenTomatos Part 2
 
@@ -39,7 +34,7 @@ opt/homebrew/Cellar/cocoapods/{VERSION}/bin/pod install
 <img src="http://g.recordit.co/fLm1lGFDKW.gif" width=250><br>
 
 ### Notes
-The biggest challenge was adding the bonus feature where a user can tap a poster in the collection view to see a detailed screen of that movie. This is because when completing this part, I had to go back and think through the steps taken in the video, which I was, honestly, blindly following. This challenge led to actually understanding how the process works and was really helpful.
+The biggest challenge was adding the bonus feature where a user can tap a poster in the collection view to see a detailed screen of that movie. This is because when completing this part, I had to go back and think through the steps taken in the video, which I was, honestly, blindly following. Eventually, by looking through the problem more deeply and understanding the challenges and workarounds, I was able to get this done. This challenge led to actually understanding how the process works and was really helpful.
 
 ---
 This project was done as a part of the iOS Mobile Development course by CodePath.
