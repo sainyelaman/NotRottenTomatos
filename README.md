@@ -42,3 +42,4 @@ opt/homebrew/Cellar/cocoapods/{VERSION}/bin/pod install
 The biggest challenge was adding the bonus feature where a user can tap a poster in the collection view to see a detailed screen of that movie. This is because when completing this part, I had to go back and think through the steps taken in the video, which I was, honestly, blindly following. This challenge led to actually understanding how the process works and was really helpful.
 
 ---
+This project was done as a part of the iOS Mobile Development course by CodePath.
